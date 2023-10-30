@@ -1,9 +1,10 @@
 # PDF Reports
-
-1. [Ex05_Nmap_SearchSploit.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex05_Nmap_SearchSploit.pdf)
-2. [Ex06_VulnScan.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex06_VulnScan.pdf)
-4. [Ex07_BriansService.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex07_BriansService.pdf)
-5. [Ex08_ThroughTheGate.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex08_ThroughTheGate.pdf)
-6. [Ex09_PowerUp.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex09_PowerUp.pdf)
-7. [Ex0a_Hashtag.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex0a_Hashtag.pdf)
-8. [Ex0b_Pivot.pdt](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex0b_Pivot.pdf)
+| Report Link | Summary | Findings | CVSS Base Ratings |
+| --- | ----------- | ------- |  -------- |
+| [Ex05_Nmap_SearchSploit.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex05_Nmap_SearchSploit.pdf) | Use Nmap to gather TCP and UDP service names & versions running on businesses public web server. Use the data gathered to run queries in Searchsploit. | None | None |
+| [Ex06_VulnScan.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex06_VulnScan.pdf) | Use Nessus's advanced scan with custom options to uncover vulnerabilities hidden from a basic scan. Use Metasploit to exploit the compiled backdoor. | Remote Code Execution Vulneriblity in vsFTPD | 7.3 _AV:N AC:L PR:N UI:N S:U C:L I:L A:L_ |
+| [Ex07_BriansService.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex07_BriansService.pdf) | Exploit a buffer overflow to inject commands in a developer utility service and gain a reverse shell. | Arbitrary Code Execution in Brian’s Service | 7.3 _AV:N AC:L PR:N UI:N S:U C:L I:L A:L_ |
+| [Ex08_ThroughTheGate.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex08_ThroughTheGate.pdf) | Perform password spraying on Microsoft Outlook to get domain credentials. Use compromised network firewall to expose an internal RDP service using port forwarding. | 1. No rate limit on login attempts in Outlook. <br><br> 2. Default credentials in web facing firewall configurator. | a. 7.3 _AV:N AC:L PR:N UI:N S:U C:L I:L A:L_ <br><br>b. 9.8 _AV:A AC:L PR:N UI:N S:U C:H I:H A:H_ |
+| [Ex09_PowerUp.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex09_PowerUp.pdf) | Use Powersploit to exploit a priviledge escalation vulnerability in Windows Volume Shadow Service. Use the elevated privileges to run Mimikatz and dump LSA secrets and SAM database. | Privilege escalation vulnerability with Volume Shadow Service | 8.4 _AV:L AC:L PR:N UI:N S:U C:H I:H A:H_) |
+| [Ex0a_Hashtag.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex0a_Hashtag.pdf) | Use John-the-Ripper to crack LM and NTLMv1 hashes exfiltrated in previos exercise. | 1. Weak LM and NTLMv1 Authentication Enabled.<br><br>2. Weak Encryption standard allowed for Kerberos. | a. 8.1 _AV:N AC:H PR:N UI:N S:U C:H I:H A:H_ <br><br>b. 8.1 _AV:N AC:H PR:N UI:N S:U C:H I:H A:H_ | 
+| [Ex0b_Pivot.pdt](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex0b_Pivot.pdf) | Use Chisel and Proxychains to scan the internal network through a compromised machine while bypassing a firewall. | None | None |
