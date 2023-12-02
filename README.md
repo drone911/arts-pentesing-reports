@@ -1,4 +1,7 @@
 # Pentesting Reports For Arts Tailor Shop (using [Latex](https://www.latex-project.org/))
+
+The agreement template signed by Art's Tailor Shop for the penetration test can be found [here](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex00-PenetrationTestAgreement.pdf).
+
 | Report Link | Summary | Findings | CVSS Base Ratings |
 | --- | ----------- | ------- |  -------- |
 | [Ex0d_SSLStrip.pdf](https://github.com/drone911/arts-pentesing-reports/blob/main/Ex0d_SSLStrip.pdf) | Conduct a Man-in-the-Midde attack using [dssniff's](https://www.kali.org/tools/dsniff/) ``arpspoof`` and [sslstrip](https://github.com/moxie0/sslstrip) to get Basic Auth credentials. | 1. Web Server serving same pages over both HTTP and HTTPS.<br><br>2. No mitigation for spoofed ARP packets.  | a. ``6.1`` _AV:L AC:L PR:L UI:R S:U C:L I:L A:H_ <br><br>b. ``5.3`` _AV:L AC:L PR:L UI:N S:U C:L I:L A:L_ | 
