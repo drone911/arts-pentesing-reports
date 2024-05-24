@@ -1,4 +1,4 @@
-# Pentesting Reports for the virtual business Arts Tailor Shop (using [Latex](https://www.latex-project.org/))
+# Pentesting Reports for the virtual business "Arts Tailor Shop" (using [Latex](https://www.latex-project.org/))
 
 - The final penetration test report without the attack narratives and Mitre Att&ck TTPs can be found [here](https://github.com/drone911/arts-pentesing-reports/blob/main/reports/Final_Report_ArtsTailorShop.pdf).
 - The agreement template signed by Art's Tailor Shop for the penetration test can be found [here](https://github.com/drone911/arts-pentesing-reports/blob/main/reports/Ex00-PenetrationTestAgreement.pdf).  
